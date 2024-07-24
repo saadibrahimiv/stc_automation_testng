@@ -1,8 +1,9 @@
-## Subscription Package Validation Framework
-Overview
+# Subscription Package Validation Framework
+
+## Overview
 This project is an automated test framework designed to validate subscription packages on the STC TV subscription page. 
 
-Technology Stack
+## Technology Stack
 Java: The programming language used for writing the automation scripts.
 Selenium: For browser automation.
 TestNG: For managing test cases.
@@ -11,30 +12,36 @@ Maven: For project management and dependency management.
 
 
 
-Getting Started
-Prerequisites
+## Getting Started
+### Prerequisites
 Java 11 or higher
 Maven
 web browser 
 
-Installation
+### Installation
 Clone the repository:
-
-git clone 
+```
+git clone <repo>
+```
 
 Install the dependencies:
 
-mvn clean install
+```
+ mvn clean install
+```
+
 
 Execute the test cases using Maven:
 
+```
 mvn test
+```
 
 View the report:
 
 The report will be generated in the target directory.
 
-Customizing Test Execution
+### Customizing Test Execution
 
 Change Browser and URL:
 
