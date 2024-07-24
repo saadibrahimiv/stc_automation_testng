@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Subscription Test Suite" parallel="tests" thread-count="4">
+    <!-- <test name="Subscription Test Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.testcrew.stc.tests.SubscriptionTest"/>
+        </classes>
+    </test> -->
+    <test name="Subscription Test Firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.testcrew.stc.tests.SubscriptionTest"/>
+        </classes>
+    </test>
+</suite>

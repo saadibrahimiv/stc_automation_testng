@@ -1,0 +1,9 @@
+com\testcrew\stc\utils\JsonUtils.class
+com\testcrew\stc\utils\ReportManager.class
+com\testcrew\stc\utils\WebDriverManager.class
+com\testcrew\stc\utils\ConfigManager.class
+com\testcrew\stc\utils\WebDriverFactory.class
+com\testcrew\stc\utils\DataProviderUtils.class
+com\testcrew\stc\utils\JsonUtils$1.class
+com\testcrew\stc\base\BaseTest.class
+com\testcrew\stc\pages\SubscriptionPage.class

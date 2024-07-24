@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-25T00:50:25 PKT" name="Subscription Test Suite" finished-at="2024-07-25T00:51:17 PKT" duration-ms="51957">
+    <groups>
+    </groups>
+    <test started-at="2024-07-25T00:50:25 PKT" name="Subscription Test Firefox" finished-at="2024-07-25T00:51:17 PKT" duration-ms="51957">
+      <class name="com.testcrew.stc.tests.SubscriptionTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.testcrew.stc.tests.SubscriptionTest@75c56eb9]" started-at="2024-07-25T00:50:25 PKT" name="setUp" finished-at="2024-07-25T00:50:42 PKT" duration-ms="16672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://subscribe.stctv.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSubscriptionPackages(java.util.Map)[pri:0, instance:com.testcrew.stc.tests.SubscriptionTest@75c56eb9]" started-at="2024-07-25T00:50:42 PKT" name="validateSubscriptionPackages" data-provider="subscriptionData" finished-at="2024-07-25T00:50:57 PKT" duration-ms="14815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=sa, packages=[{type=LITE, price=15, currency=SAR}, {type=CLASSIC, price=25, currency=SAR}, {type=PREMIUM, price=60, currency=SAR}]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubscriptionPackages -->
+        <test-method signature="validateSubscriptionPackages(java.util.Map)[pri:0, instance:com.testcrew.stc.tests.SubscriptionTest@75c56eb9]" started-at="2024-07-25T00:50:57 PKT" name="validateSubscriptionPackages" data-provider="subscriptionData" finished-at="2024-07-25T00:51:06 PKT" duration-ms="9450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=kw, packages=[{type=LITE, price=1.2, currency=KWD}, {type=CLASSIC, price=2.5, currency=KWD}, {type=PREMIUM, price=4.8, currency=KWD}]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubscriptionPackages -->
+        <test-method signature="validateSubscriptionPackages(java.util.Map)[pri:0, instance:com.testcrew.stc.tests.SubscriptionTest@75c56eb9]" started-at="2024-07-25T00:51:06 PKT" name="validateSubscriptionPackages" data-provider="subscriptionData" finished-at="2024-07-25T00:51:15 PKT" duration-ms="8641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=bh, packages=[{type=LITE, price=2, currency=BHD}, {type=CLASSIC, price=3, currency=BHD}, {type=PREMIUM, price=6, currency=BHD}]}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubscriptionPackages -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcrew.stc.tests.SubscriptionTest@75c56eb9]" started-at="2024-07-25T00:51:15 PKT" name="tearDown" finished-at="2024-07-25T00:51:17 PKT" duration-ms="1695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testcrew.stc.tests.SubscriptionTest -->
+    </test> <!-- Subscription Test Firefox -->
+  </suite> <!-- Subscription Test Suite -->
+</testng-results>
