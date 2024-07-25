@@ -38,6 +38,7 @@ mvn test
 ```
 
 View the report:
+![image](https://github.com/user-attachments/assets/5dbac7da-deca-4b82-90f7-4112dbd741ba)
 
 The report will be generated in the target directory.
 
