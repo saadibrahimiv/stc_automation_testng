@@ -4,11 +4,16 @@
 This project is an automated test framework designed to validate subscription packages on the STC TV subscription page. 
 
 ## Technology Stack
-Java: The programming language used for writing the automation scripts.
-Selenium: For browser automation.
-TestNG: For managing test cases.
-Extent Reports: For generating test reports.
-Maven: For project management and dependency management.
+### Java:
+The programming language used for writing the automation scripts.
+### Selenium: 
+For browser automation.
+### TestNG:
+For managing test cases.
+### Extent Reports:
+For generating test reports.
+### Maven:
+For project management and dependency management.
 
 
 
