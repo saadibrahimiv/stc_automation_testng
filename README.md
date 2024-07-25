@@ -42,18 +42,19 @@ Execute the test cases using Maven:
 mvn test
 ```
 
-View the report:
+### View the report: 
+(Sample Successful Test Run)
 ![image](https://github.com/user-attachments/assets/5dbac7da-deca-4b82-90f7-4112dbd741ba)
 
 The report will be generated in the target directory.
 
-### Customizing Test Execution
+## Customizing Test Execution
 
-Change Browser and URL:
+### Change Browser and URL:
 
 Modify the testng.xml file to specify different browser types and URLs for the test execution.
 
-Update Test Data:
+### Update Test Data:
 
 The test data for different countries and their respective packages can be updated in the testdata.json.
 
